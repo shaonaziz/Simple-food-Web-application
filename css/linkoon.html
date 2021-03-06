@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bangladesh Fitness Center</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(66, 23, 219);
+        margin: 0px;
+        padding: 0px;
+        background-image: url(https://cdn.wallpapersafari.com/65/19/CRuKD9.jpg);
+    }
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+    .left img {
+      width: 166px;
+    height: auto;
+    filter: invert(100%);
+    }
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+    .mid {
+        display: block;
+        width: 36%;
+        margin: 29px auto;
+    }
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+    }
+    .navbar {
+        display: inline-block;
+    }
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(253, 9, 9);
+    }
+    .btn {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px 9px;
+        background-color: rgb(17, 202, 42);
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btn:hover {
+        background-color:  rgb(17, 202, 42);
+    }
+    .container {
+        border: 2px solid rgb(202, 142, 226);
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+    .form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    background-color: rgb(153, 241, 230);
+    text-align: center;
+    display: block;
+    width: 363px;
+    padding: 3px;
+    border: 2px solid black;
+    margin: 8px auto;
+    font-size: 22px;
+    border-radius: 12px;
+    }
+    .container h1 {
+        text-align: center;
+    }
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="B.JPEG" alt="">
+            <div><b>Bangladesh Fitness Center</b></div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#"class="active">Contact Us</a></li>
+                <li><a href="#"class="active">About Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1> Join the Best Fitness Center of Dhaka Now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit Here</button>
+        </form>
+    </div>
+</body>
+</html>
